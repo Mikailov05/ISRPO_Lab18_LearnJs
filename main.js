@@ -1,4 +1,4 @@
-let value = 10;
+/*let value = 10;
 console.log(value);
 value = "Темпър это строка";
 console.log(value);
@@ -114,3 +114,16 @@ let isStudent = true;
 console.log("Name:", name);
 console.log("Age:", age);
 console.log("Is student:", isStudent);
+*/
+
+
+let newPrice;
+newPrice = 254;
+console.log("Значение:", newPrice);
+console.log("Тип:", typeof newPrice);
+
+newPrice = "100 рублей";
+
+// 5. Снова выведите значение и тип
+console.log("Значение:", newPrice);
+console.log("Тип:", typeof newPrice);
