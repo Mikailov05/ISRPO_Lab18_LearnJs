@@ -195,8 +195,110 @@ console.log(x1 - y1);
 console.log(x1 * y1);
 console.log(x1 / y1);*/
 // Создайте переменные a2 и b2
+
+
+
+/*
 let a2 = 5;
 let b2 = 3;
 
 console.log(a2 + b2);
 console.log(a2 * b2);
+
+let yourage = 18;
+if (yourage >= 18) {
+    console.log("Доступ разрешен");
+} else {
+    console.log("Доступ запрещен");
+}*/ // 12.5. Практическое задание №2
+
+/*
+let isLoggedIn = true;
+let isAdmin = false;
+
+if (isLoggedIn && isAdmin) {
+    console.log("Полный доступ");
+} else if (isLoggedIn && !isAdmin) {
+    console.log("Ограниченный доступ");
+} else {
+    console.log("Доступ запрещён");
+}
+
+//  Практическое задание №3
+
+let a3 = 10;
+let b3 = "10";
+
+console.log("a3 == b3:", a3 == b3);
+console.log("a3 === b3:", a3 === b3);
+
+
+console.log("\nВывод:");
+console.log("== сравнивает значения после преобразования типов");
+console.log("=== сравнивает значения без преобразования типов (проверяет и тип, и значение)");*/
+
+
+
+
+
+let day = 3;
+switch (day) {
+    case 1:
+        console.log("Понедельник");
+        break;
+    case 2:
+        console.log("Вторник");
+        break;
+    case 3:
+        console.log("Среда");
+        break;
+    default:
+        console.log("Неизвестный день");
+}
+
+
+
+//  Практическое задание №4 
+
+let monthNumber = 5;
+
+switch (monthNumber) {
+    case 1:
+        console.log("Январь");
+        break;
+    case 2:
+        console.log("Февраль");
+        break;
+    case 3:
+        console.log("Март");
+        break;
+    case 4:
+        console.log("Апрель");
+        break;
+    case 5:
+        console.log("Май");
+        break;
+    case 6:
+        console.log("Июнь");
+        break;
+    case 7:
+        console.log("Июль");
+        break;
+    case 8:
+        console.log("Август");
+        break;
+    case 9:
+        console.log("Сентябрь");
+        break;
+    case 10:
+        console.log("Октябрь");
+        break;
+    case 11:
+        console.log("Ноябрь");
+        break;
+    case 12:
+        console.log("Декабрь");
+        break;
+    default:
+        console.log("Неверное значение. Введите число от 1 до 12");
+}
