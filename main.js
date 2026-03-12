@@ -155,7 +155,7 @@ console.log(false + 1);
 console.log(null + 1);
 console.log(undefined + 1);*/
 
-console.log(5 == "5");
+/*console.log(5 == "5");
 console.log(5 === "5");
 console.log(0 == false);
 console.log(0 === false);
@@ -193,4 +193,10 @@ x1 = "10";
 console.log(x1 + y1);
 console.log(x1 - y1);
 console.log(x1 * y1);
-console.log(x1 / y1);
+console.log(x1 / y1);*/
+// Создайте переменные a2 и b2
+let a2 = 5;
+let b2 = 3;
+
+console.log(a2 + b2);
+console.log(a2 * b2);
